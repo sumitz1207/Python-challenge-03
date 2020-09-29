@@ -57,6 +57,7 @@ with open(ops,"w") as bankFile:
     bankFile.write('Financial Analysis')
     bankFile.write('\n')
     bankFile.write(f'----------------------------')
+    bankFile.write('\n')
     bankFile.write(f'Total Months: {counter}')
     bankFile.write('\n')
     bankFile.write('Total: ${:.2f}'.format(sumProf))
