@@ -17,7 +17,7 @@ with open(fileP, "r") as file:
     #find paragraph char size by finding length of paragraph string
     para_size = len(paragraph)
     #find sentence length using regex on paragraph
-    para_sent = len(re.split("(?<=[.!?]) +", paragraph))
+    para_sent = len(re.split("(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s", paragraph))
     #sentence length is the word count divided by sentence count
     sent_length = str(para_words/para_sent)
     #letter count is the size of the paragraph divided by the word count
