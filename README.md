@@ -6,6 +6,4 @@ PyPoll calculates the winner and other election results of a local election betw
 
 PyBoss updates a csv list of employees to a new style format
 
-I am still working on the extra work. 
-
-PyParagrah is INCOMPLETE.
+I have not completed PyParagraph
