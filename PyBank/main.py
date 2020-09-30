@@ -62,7 +62,7 @@ with open(ops,"w") as bankFile:
     bankFile.write('\n')
     bankFile.write('Total: ${:.2f}'.format(sumProf))
     bankFile.write('\n')
-    bankFile.write('Average  Changes: ${:.2f}'.format(sum(changes)/len(changes)))
+    bankFile.write('Average  Change: ${:.2f}'.format(sum(changes)/len(changes)))
     bankFile.write('\n')
     bankFile.write('Greatest Increase in Profits: {} (${:.2f})'.format((best), (incMax)))
     bankFile.write('\n')
